@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import LiveTimestamp from "../LiveTimestamp";
 
 type Props = {
-  searchParams: Article;
+  searchParams?: Article;
 };
 
 function ArticlePage({ searchParams }: Props) {
